@@ -1,0 +1,20 @@
+[package]
+name = "titanfs"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "titanfs"
+path = "src/lib.rs"
+
+[[bin]]
+name = "titanfs"
+path = "src/main.rs"
+
+[dependencies]
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+panic = "abort"
