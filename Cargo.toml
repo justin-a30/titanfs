@@ -2,6 +2,12 @@
 name = "titanfs"
 version = "0.1.0"
 edition = "2024"
+description = "Next-Generation Ultra-Fast Extent Filesystem with ChronoVFS, GhostTrees, RansomShield, and OmniIndex"
+license = "Apache-2.0"
+repository = "https://github.com/justin-a30/titanfs"
+readme = "README.md"
+keywords = ["filesystem", "storage", "performance", "cow", "anti-ransomware"]
+categories = ["filesystem", "data-structures", "algorithms"]
 
 [lib]
 name = "titanfs"
